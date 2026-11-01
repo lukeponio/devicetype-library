@@ -1,0 +1,37 @@
+---
+manufacturer: APC
+model: SMC1500I-2U
+slug: apc-smc1500i-2u
+part_number: SMC1500I-2U
+u_height: 2
+is_full_depth: false
+airflow: front-to-rear
+weight: 28.64
+weight_unit: kg
+rear_image: true
+comments: |
+  APC Smart-UPS C, Line Interactive, 1500VA/900W, Rackmount 2U, 230V, 4x IEC C13 outlets, USB and Serial communication
+  [SMC1500I-2U Product Data Sheet](https://resources.ampheo.com/static/datasheets/schneider-electric/smc1500i-2u.pdf)
+  [Smart-UPS C 1000/1500/2000/3000 VA 120/230 Vac Rack-Mount 2U Operation Manual](https://download.se.com/files?p_enDocType=User%20guide&p_File_Name=SU%20UM%20990-4472G%20MN01%20EN.pdf&p_Doc_Ref=SPD_AHUG-8FN8PL_EN)
+  [What communications cable is needed with my Smart-UPS and Easy-UPS with PowerChute Agent?](https://www.se.com/hk/en/faqs/FA163632/)
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: iec-60320-c14
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Source

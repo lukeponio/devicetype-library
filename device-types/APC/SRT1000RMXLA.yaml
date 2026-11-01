@@ -1,0 +1,49 @@
+---
+manufacturer: APC
+model: Smart-UPS SRT1000RMXLA
+slug: apc-srt1000rmxla
+part_number: SRT1000RMXLA
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 22
+weight_unit: kg
+front_image: true
+comments: |
+  APC Smart-UPS On-Line, 1000VA/900W, Rackmount 2U, 120V, 6x 5-15R NEMA outlets, SmartSlot, Extended runtime, W/ rail kit
+  [Smart-UPS On-Line SRT Operation Manual 990-9927A](https://download.se.com/files?p_enDocType=User+guide&p_File_Name=JGNY-AAX62J_R1_EN.pdf&p_Doc_Ref=SPD_JGNY-AAX62J_EN)
+  [Smart-UPS On-Line 120/208 V Catalog 998-1257966](https://download.se.com/files?p_enDocType=Catalog&p_File_Name=998-1257966_202101_GMA-US_B_2022.pdf&p_Doc_Ref=SPD_JPRO-9QHRU2_EN)
+  [SRT1000RMXLA Product Page](https://www.se.com/us/en/product/SRT1000RMXLA/apc-smartups-online-1000va-rackmount-2u-120v-6x-515r-nema-outlets-smartslot-extended-runtime-w-rail-kit/)
+  [SRT1000RMXLA Schneider Electric Shop](https://shop.se.com/pro/us/en/product/apc-smart-ups-on-line-1000va-rackmount-2u-120v-6x-5-15r-nema-outlets-smartslot-extended-runtime-w-rail-kit/)
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-a
+power-ports:
+  - name: Source
+    type: nema-5-15p
+  - name: XLBP Source
+    type: dc-terminal
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 2
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 3
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 4
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 5
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 6
+    type: nema-5-15r
+    power_port: Source
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot

@@ -1,0 +1,39 @@
+---
+manufacturer: APC
+model: SRTL5KRM2UT
+slug: apc-srtl5krm2ut
+part_number: SRTL5KRM2UT
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 30
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: |
+  APC Smart-UPS Ultra On-Line, 5000VA, Lithium-ion, Rack/Tower 2U, 208V, L6-30P input cord, 2x L6-20R+2x L6-30R NEMA outlets, embedded Network Management Card
+  [SRTL5KRM2UT Product Page](https://www.se.com/us/en/product/SRTL5KRM2UT/)
+  [APC Smart-UPS Ultra 5kW Brochure](https://download.se.com/files?p_enDocType=Brochure&p_File_Name=APC_Smart-UPS_Ultra_5kW_OnePager_202202_NAM.pdf&p_Doc_Ref=Smart-UPS_Ultra_5kW_EN)
+  [Smart-UPS Ultra 5 kVA SRTL5KRM2UT/2UT-HW/2UI/2UI-HW/2UJ/2UJ-HW Installation Guide](https://download.se.com/files?p_enDocType=Installation+guide&p_File_Name=SUO+IM+990-6457B+MN01+EN.pdf&p_Doc_Ref=SPD_SUO-IM-990-6457_EN)
+power-ports:
+  - name: Source
+    type: nema-l6-30p
+  - name: XLBP Source
+    type: dc-terminal
+power-outlets:
+  - name: Outlet 1
+    type: nema-l6-20r
+    power_port: Source
+  - name: Outlet 2
+    type: nema-l6-20r
+    power_port: Source
+  - name: Outlet 3
+    type: nema-l6-30r
+    power_port: Source
+  - name: Outlet 4
+    type: nema-l6-30r
+    power_port: Source
+interfaces:
+  - name: Network
+    type: 1000base-t
+    mgmt_only: true
