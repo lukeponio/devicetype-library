@@ -1,0 +1,45 @@
+---
+manufacturer: Dell
+model: PowerEdge XR5610
+slug: dell-poweredge-xr5610
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+weight: 11.37
+weight_unit: kg
+front_image: true
+comments: |
+  1U short-depth single-socket edge server (rear accessed or front accessed I/O), 4x 25 GbE SFP28 embedded LOM, dedicated iDRAC port, Micro-AB USB serial port, OCP 3.0 slot, 2x PCIe Gen5 x16 FH slots, two 1+1 redundant PSUs.
+  [Dell PowerEdge XR5610 Technical Guide](https://www.delltechnologies.com/asset/en-nz/products/servers/technical-support/poweredge-xr5610-technical-guide.pdf)
+  [PowerEdge XR5610 Spec Sheet](https://www.delltechnologies.com/asset/ja-jp/products/servers/technical-support/poweredge-xr5610-spec-sheet.pdf)
+  [Dell PowerEdge XR5610 Installation and Service Manual - Expansion card riser specifications](https://www.dell.com/support/manuals/en-us/poweredge-xr5610/pexr5610_ism_pub/expansion-card-riser-specifications?guid=guid-03191060-2cad-43c6-9b5b-0ff46687c672&lang=en-us)
+console-ports:
+  - name: Serial
+    type: usb-micro-ab
+interfaces:
+  - name: 25GbE 1
+    type: 25gbase-x-sfp28
+  - name: 25GbE 2
+    type: 25gbase-x-sfp28
+  - name: 25GbE 3
+    type: 25gbase-x-sfp28
+  - name: 25GbE 4
+    type: 25gbase-x-sfp28
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: OCP 1
+    position: OCP-1
+  - name: PCIe slot 1 - FH
+    position: PCIe-1
+    label: '1'
+  - name: PCIe slot 2 - FH
+    position: PCIe-2
+    label: '2'
+  - name: PSU-1
+    label: '1'
+    position: PSU-1
+  - name: PSU-2
+    label: '2'
+    position: PSU-2

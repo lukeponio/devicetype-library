@@ -1,0 +1,27 @@
+---
+manufacturer: Dell
+model: PowerEdge C6620
+slug: dell-poweredge-c6620
+u_height: 0
+is_full_depth: true
+subdevice_role: child
+comments: |
+  Two-socket sled for the PowerEdge C6600 enclosure, one RJ45 port shared between iDRAC and the 1 GbE LOM, OCP 3.0 slot, two low profile PCIe slots.
+  [Dell PowerEdge C6600 and C6620 Technical Guide](https://www.delltechnologies.com/asset/en-au/products/servers/technical-support/poweredge-c6620-technical-guide.pdf)
+  [PowerEdge C6620 Spec Sheet](https://www.delltechnologies.com/asset/fr-fr/products/servers/technical-support/poweredge-c6620-spec-sheet.pdf)
+console-ports:
+  - name: iDRAC Direct
+    type: usb-micro-ab
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: false
+module-bays:
+  - name: OCP slot 1
+    position: OCP-1
+  - name: PCIe slot 1 - LP
+    position: PCIe-1
+    label: '1'
+  - name: PCIe slot 2 - LP
+    position: PCIe-2
+    label: '2'

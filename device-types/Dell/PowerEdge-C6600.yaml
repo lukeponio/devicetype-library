@@ -1,0 +1,29 @@
+---
+manufacturer: Dell
+model: PowerEdge C6600
+slug: dell-poweredge-c6600
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 42.5
+weight_unit: kg
+comments: |
+  2U enclosure for up to four PowerEdge C6620 sleds (2U4N), two PSU bays, 763.2 mm deep (ear to rear wall).
+  [Dell PowerEdge C6600 and C6620 Technical Guide](https://www.delltechnologies.com/asset/en-au/products/servers/technical-support/poweredge-c6620-technical-guide.pdf)
+  [Dell PowerEdge C6600 and C6620 Technical Guide Rev. A00](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-c6620-technical-guide.pdf)
+  [PowerEdge C6620 Spec Sheet](https://www.delltechnologies.com/asset/fr-fr/products/servers/technical-support/poweredge-c6620-spec-sheet.pdf)
+device-bays:
+  - name: '1'
+    label: Sled 1
+  - name: '2'
+    label: Sled 2
+  - name: '3'
+    label: Sled 3
+  - name: '4'
+    label: Sled 4
+module-bays:
+  - name: Power 1
+    position: '1'
+  - name: Power 2
+    position: '2'

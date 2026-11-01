@@ -1,0 +1,71 @@
+---
+manufacturer: Dell
+model: PowerEdge XE9680
+slug: dell-poweredge-xe9680
+u_height: 6
+is_full_depth: true
+airflow: front-to-rear
+weight: 114.05
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: |
+  6U dual-socket 8-GPU rack server, 10x PCIe Gen5 x16 FH slots (31-40), 2x 1 GbE LOM card, OCP 3.0 slot, dedicated iDRAC9 port, six PSUs in 5+1 or 3+3 redundancy.
+  [Dell PowerEdge XE9680 Technical Guide](https://www.delltechnologies.com/asset/en-au/products/servers/technical-support/poweredge-xe9680-technical-guide.pdf)
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: '1'
+  - name: PSU-2
+    label: '2'
+    position: '2'
+  - name: PSU-3
+    label: '3'
+    position: '3'
+  - name: PSU-4
+    label: '4'
+    position: '4'
+  - name: PSU-5
+    label: '5'
+    position: '5'
+  - name: PSU-6
+    label: '6'
+    position: '6'
+  - name: LOM card
+    position: LOM-1
+  - name: OCP slot 1
+    position: OCP-1
+  - name: NUMA 1 - PCIe slot 31 - FH
+    position: PCIe-31
+    label: '31'
+  - name: NUMA 1 - PCIe slot 32 - FH
+    position: PCIe-32
+    label: '32'
+  - name: NUMA 1 - PCIe slot 33 - FH
+    position: PCIe-33
+    label: '33'
+  - name: NUMA 1 - PCIe slot 34 - FH
+    position: PCIe-34
+    label: '34'
+  - name: NUMA 1 - PCIe slot 35 - FH
+    position: PCIe-35
+    label: '35'
+  - name: NUMA 0 - PCIe slot 36 - FH
+    position: PCIe-36
+    label: '36'
+  - name: NUMA 0 - PCIe slot 37 - FH
+    position: PCIe-37
+    label: '37'
+  - name: NUMA 0 - PCIe slot 38 - FH
+    position: PCIe-38
+    label: '38'
+  - name: NUMA 0 - PCIe slot 39 - FH
+    position: PCIe-39
+    label: '39'
+  - name: NUMA 0 - PCIe slot 40 - FH
+    position: PCIe-40
+    label: '40'

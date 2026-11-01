@@ -1,0 +1,48 @@
+---
+manufacturer: Dell
+model: PowerEdge HS5620
+slug: dell-poweredge-hs5620
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+weight: 28.6
+weight_unit: kg
+front_image: true
+rear_image: true
+comments: |
+  2U dual-socket cloud scale rack server, optional 2x 1 GbE LOM board and OCP 3.0 card, up to 6x low profile PCIe slots, dedicated iDRAC port, up to two hot-swap redundant PSUs.
+  [PowerEdge HS5620 Spec Sheet](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-hs5620-spec-sheet.pdf)
+  [Dell PowerEdge HS5620 Technical Guide Rev. A00](https://www.delltechnologies.com/asset/en-us/products/servers/technical-support/poweredge-hs5620-technical-guide.pdf)
+interfaces:
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU-1
+    label: '1'
+    position: '1'
+  - name: PSU-2
+    label: '2'
+    position: '2'
+  - name: LOM card
+    position: LOM-1
+  - name: OCP slot 1
+    position: OCP-1
+  - name: PCIe slot 1 - LP
+    position: PCIe-1
+    label: '1'
+  - name: PCIe slot 2 - LP
+    position: PCIe-2
+    label: '2'
+  - name: PCIe slot 3 - LP
+    position: PCIe-3
+    label: '3'
+  - name: PCIe slot 4 - LP
+    position: PCIe-4
+    label: '4'
+  - name: PCIe slot 5 - LP
+    position: PCIe-5
+    label: '5'
+  - name: PCIe slot 6 - LP
+    position: PCIe-6
+    label: '6'
