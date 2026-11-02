@@ -8,6 +8,7 @@ subdevice_role: parent
 airflow: front-to-rear
 weight: 42.5
 weight_unit: kg
+rear_image: true
 comments: |
   2U enclosure for up to four PowerEdge C6620 sleds (2U4N), two PSU bays, 763.2 mm deep (ear to rear wall).
   [Dell PowerEdge C6600 and C6620 Technical Guide](https://www.delltechnologies.com/asset/en-au/products/servers/technical-support/poweredge-c6620-technical-guide.pdf)
